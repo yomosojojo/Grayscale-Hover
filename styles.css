@@ -1,0 +1,17 @@
+body {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+img {
+    width: 300px;
+    filter: grayscale(100%);
+    transition: filter 0.5s;
+}
+
+img:hover {
+    filter: grayscale(0%);
+}
